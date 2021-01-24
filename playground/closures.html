@@ -10,6 +10,15 @@
 
 <body>
 
+  <!-- Closure example. Internal(returned) function is anonymous -->
+  <script>
+    function getPrice(product){
+      let price = 0;
+      return () => `${product} price is ${++price}`;
+    }
+  </script>
+</body>
+
 </body>
 
 </html>

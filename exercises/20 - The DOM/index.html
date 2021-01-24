@@ -6,20 +6,46 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <title>The DOM</title>
   <link rel="stylesheet" href="../../base.css">
+
+  <style>
+    h2 span {
+      visibility: hidden;
+    }
+
+    .round {
+      border-radius: 30%;
+      transform: rotate(1.5turn);
+    }
+  </style>
 </head>
 
 <body>
   <div class="items">
-    <p>Hi I'm a item</p>
+    <img class="nice cool transition" src="https://source.unsplash.com/random/300x300"
+      style="transition: all 3s;"
+    
+    />
+    <p>Hi I'm an item</p>
     <div>
-      <h2>Sub Div</h2>
-      <p>Hi I'm a item</p>
+      <h2>
+        A paragraph with a hidden element
+        <span>
+          Hidden Paragraph
+        </span>
+      </h2>
+      <p>Hi I'm an item</p>
 
     </div>
     <img src="https://source.unsplash.com/random/300x300" />
-    <p>Hi I'm a item</p>
-    <p>Hi I'm a item</p>
+    <p>Hi I'm an item</p>
+    <p>Hi I'm an item</p>
+    <article class="item">
+      <h2>Im an article</h2>
+      <p class="pizza">This is how many pizzas I ate! 🍕 </p>
+    </article>
   </div>
+
+  <script src="./traversing.js"></script>
 </body>
 
 </html>

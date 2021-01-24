@@ -6,7 +6,7 @@ const desc = `Cute Pup <img onload="alert('HACKED')" src="https://picsum.photos/
 const myHTML = `
   <div class="wrapper">
     <h2>Cute ${desc}</h2>
-    <img src="${src}" alt="${desc}"/>
+    <img src="${webPicture}" alt="${desc}"/>
   </div>
 `;
 
